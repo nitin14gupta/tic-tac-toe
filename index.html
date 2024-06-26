@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main>
+        <section class="play12" aria-label="Players">
+            <img src="Player 1.png" alt="Player 1" id="player1">
+            <img src="Player 2.png" alt="Player 2" id="player2">
+        </section>
+        <section class="container" aria-label="Game Board">
+            <div class="allbutton">
+                <div class="row">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+                <div class="row">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+                <div class="row">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+            </div>
+        </section>
+        <section class="res-con" aria-label="Reset Button">
+            <button class="reset-butn">Reset Button</button>
+        </section>
+        <section class="winner" aria-label="Winner Message">
+            <p id="winnerMessage"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

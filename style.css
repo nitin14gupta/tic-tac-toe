@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbf1f9;
+    font-family: "Poppins", "Times New Roman", Times, serif;
+}
+
+header h1 {
+    color: #7e4b8b;
+    text-align: center;
+    height: 2rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    font-weight: 900;
+    margin: 1rem 0rem;
+}
+
+.play12 {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+#player2 {
+    margin-left: 2rem;
+}
+
+.container {
+    width: 19rem;
+    height: 19rem;
+    background-color: #f8ccf9;
+    border: 0.2rem solid black;
+    border-radius: 0.625rem;
+    text-align: center;
+    margin: 0 auto 2.5rem;
+}
+.container button {
+    width: 5.2rem;
+    height: 5.2rem;
+    border: 1px solid black;
+    border-radius: 0.625rem;
+    box-shadow: -0.2rem 0.2rem 0rem 0rem #aaaaaa;
+    cursor: pointer;
+    font-size: 3rem;
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+.container .row {
+    display: flex; 
+    justify-content: center; /
+}
+
+.container .row + .row {
+    margin-top: 0.2rem;
+}
+
+
+.reset-butn {
+    height: 3.5rem;
+    width: 7.9rem;
+    line-height: 2.3rem;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    background: #f8ccf9;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.winner {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #7e4b8b;
+}
